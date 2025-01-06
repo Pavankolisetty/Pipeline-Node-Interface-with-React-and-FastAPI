@@ -13,11 +13,11 @@ This project is a full-stack application to manage pipeline nodes and edges. The
 
 ## Project Structure
 
-### **Frontend**
+### Frontend
 - Built with React and Zustand for state management.
 - Provides an interactive drag-and-drop interface for node management.
 
-### **Backend**
+### Backend
 - Developed with FastAPI to process graph data.
 - Calculates graph metrics and validates DAG structures.
 
@@ -34,7 +34,7 @@ Make sure you have the following installed:
 
 ## Installation
 
-### **1. Clone the Repository**
+## 1. Clone the Repository
 ```bash
 git clone https://github.com/<your-username>/pipeline-node-management.git
 cd pipeline-node-management
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 
 
-##Usage
+## Usage
 Start the Frontend:
 
 Open your browser and navigate to http://localhost:3000.
@@ -64,3 +64,9 @@ Interact with the Application:
 Use the drag-and-drop UI to add nodes and edges.
 Click "Submit" to send the pipeline data to the backend.
 View the graph metrics (number of nodes, edges, DAG status) in an alert.
+
+
+## Output
+https://github.com/user-attachments/assets/54f7e78c-8019-4377-8ac9-b54f43c6b894
+
+
